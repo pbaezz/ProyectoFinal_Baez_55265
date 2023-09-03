@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*body*/
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+/*header*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);
+}
+
+.banner {
+    background-image: url('../img/fondo_beer.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ingreso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingreso input{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgb(179, 146, 1);
+}
+
+.ingreso label{
+    color: rgb(179, 146, 1);;
+    margin-bottom:15px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.boton{
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+/*header*/
+
+/*card*/
+
+.card-product {
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 17px 0px rgba(255,255,255,1);
+    
+}
+.cerves{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+h2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    font-weight: 700;
+    font-size: 2rem;
+    }
+
+h3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.price {
+    color: rgb(179, 146, 1);
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.card-body img{
+    border-radius: 4px;
+    width: 70%;
+    margin-bottom:40px;
+    box-shadow: 0px 0px 17px 0px rgb(255, 187, 0);
+}
+
+
+button {
+    color: black;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.nav-container nav{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    padding: 20px;
+}
+.navbar li{
+    display: inline;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.beer button{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-right: -100px;
+;
+}
+
+.modalcontainer{
+    width: 40%;
+    margin-left:400px ;
+    max-height: 88vh;
+    color: black;
+    background-color:rgb(233, 191, 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.modalcontainer::-webkit-scrollbar{
+    display: none;
+}
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: beige;
+    width: 100%;
+}
+
+.modal-header h4{
+    color: rgb(233, 191, 5);
+    font-size: 2rem;
+    border: solid 1px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: -110px;
+}
+
+.modal-header h2{
+    margin-left: 50px;
+}
+
+.modal-header-title{
+    justify-self: start;
+} 
+
+.modal-header-button{
+    cursor: pointer;
+}
+
+.modal-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.modal-carrito p{
+    color: black;
+}
+
+.totalcompra {
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+

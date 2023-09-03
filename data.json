@@ -1,0 +1,58 @@
+{
+    "cerves":[
+        {
+            "sabor":"Golden",
+            "presentacion":"Barril 20L",
+            "precio":25000,
+            "img":"./img/barril_20.jpg"
+        },
+        {
+            "sabor":"Golden",
+            "presentacion":"Barril 5L",
+            "precio":10000,
+            "img":"./img/barril 5lts.jpg"
+        },
+        {
+            "sabor":"Golden",
+            "presentacion":"Growler 3L",
+            "precio":5000,
+            "img":"./img/growler_3lts.png"
+        },
+        {
+            "sabor":"Amber",
+            "presentacion":"Barril 20L",
+            "precio":25000,
+            "img":"./img/barril_20.jpg"
+        },
+        {
+            "sabor":"Amber",
+            "presentacion":"Barril 5L",
+            "precio":10000,
+            "img":"./img/barril 5lts.jpg"
+        },
+        {
+            "sabor":"Amber",
+            "presentacion":"Growler 3L",
+            "precio":5000,
+            "img":"./img/growler_3lts.png"
+        },
+        {
+            "sabor":"Ipa",
+            "presentacion":"Barril 20L",
+            "precio":25000,
+            "img":"./img/barril_20.jpg"
+        },
+        {
+            "sabor":"Ipa",
+            "presentacion":"Barril 5L",
+            "precio":10000,
+            "img":"./img/barril 5lts.jpg"
+        },
+        {
+            "sabor":"Ipa",
+            "presentacion":"Growler 3L",
+            "precio":5000,
+            "img":"./img/growler_3lts.png"
+        }
+    ]
+}
